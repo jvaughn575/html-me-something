@@ -1,0 +1,62 @@
+main{
+    display:flex;
+    justify-content:center;
+    border:10px solid mistyrose;
+
+}
+
+body{
+    font-family: 'Lakki Reddy';
+    font-size: 20px;
+    text-shadow: 4px 4px 4px #aaa;
+    border: 10px solid black;
+    background-image: url("./media/langkawi_resort.jpg")
+}
+
+#top-header{
+    text-align:center;
+    margin:0 auto;
+}
+
+img{
+    box-shadow: 10px 10px 5px grey;
+    border-radius: 10px;
+    display:table-cell;
+    vertical-align:middle;
+    max-height:70%;
+    max-width:70%;
+}
+
+p{
+    text-indent: 50px;
+}
+
+
+article{
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    background-color:white;
+    margin: 0 auto;
+    border:10px solid brown;
+    max-width: 60vw;
+
+}
+
+section{
+    display:flex;
+    flex-direction:column;
+    border:10px solid green;
+    justify-content: center;
+    overflow:auto;
+}
+
+section > * {
+    margin: 10 auto;
+}
+
+footer {
+    background-color: white;
+    text-align:center;
+}
