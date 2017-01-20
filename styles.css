@@ -18,6 +18,10 @@ body{
     margin:0 auto;
 }
 
+.my_class{
+    opacity: 0.5;
+}
+
 img{
     box-shadow: 10px 10px 5px grey;
     border-radius: 10px;
